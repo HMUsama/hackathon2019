@@ -9,7 +9,7 @@ const StackNavigator = createStackNavigator({
     //     screen: Screens.LoginScreen
     // },
     Dashboard: {
-        screen: Screens.DashboardScreen
+        screen: Screens.DashboardUR
     },
     Profile: {
         screen: Screens.ProfileScreen
@@ -17,15 +17,15 @@ const StackNavigator = createStackNavigator({
 })
 const DrawerNavigator = createDrawerNavigator(
     {
+    Dashboard: {
+        screen: Screens.DashboardUR
+    },
     Home: {
         screen: StackNavigator
     },
-    Profile: {
-        screen: Screens.ProfileScreen
-    },
-    Profile2: {
-        screen: Screens.DashboardScreen
-    }
+    // Profile: {
+    //     screen: Screens.ProfileCP
+    // },
 })
 
 const NavigatorUR = createAppContainer(DrawerNavigator)

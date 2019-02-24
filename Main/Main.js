@@ -21,7 +21,7 @@ NavUser(){
           color="#841584"
           onPress={this.NavUser.bind(this)} 
         />
-        <Text>Are You User</Text>
+        <Text>Are You Company</Text>
         <Button
         title="Go To SignIn"
         color="#841584"

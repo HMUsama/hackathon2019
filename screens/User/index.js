@@ -1,11 +1,9 @@
-import HomeScreen from './Home'
-import LoginScreen from './Login'
-import DashboardScreen from './Dashboard'
-import ProfileScreen from './Profile'
+import ListCP from './ListCP'
+import DashboardUR from './DashboardUR'
+import ProfileCP from './ProfileCP'
 
 export {
-    HomeScreen,
-    LoginScreen,
-    DashboardScreen,
-    ProfileScreen
+    ListCP,
+    DashboardUR,
+    ProfileCP
 }

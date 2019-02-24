@@ -9,10 +9,10 @@ const StackNavigator = createStackNavigator({
     //     screen: Screens.LoginScreen
     // },
     Dashboard: {
-        screen: Screens.DashboardScreen
+        screen: Screens.DashboardCP
     },
     Profile: {
-        screen: Screens.ProfileScreen
+        screen: Screens.ProfileUR
     },
 })
 const DrawerNavigator = createDrawerNavigator(
@@ -21,10 +21,10 @@ const DrawerNavigator = createDrawerNavigator(
         screen: StackNavigator
     },
     Profile: {
-        screen: Screens.ProfileScreen
+        screen: Screens.ProfileUR
     },
     Profile2: {
-        screen: Screens.DashboardScreen
+        screen: Screens.DashboardCP
     }
 })
 

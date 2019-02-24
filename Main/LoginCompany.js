@@ -7,6 +7,10 @@ constructor(){
     this.state={
     }
 }
+Login(){
+  console.log("Dashboard Company")
+  this.props.navigation.navigate("NavigatorCP")
+}
   render() {
 
     return (
@@ -16,7 +20,7 @@ constructor(){
         <Button
         title="Go To SignIn"
         color="#841584"
-        // onPress={this.logIn} 
+        onPress={this.Login} 
         />
       </View>
     );

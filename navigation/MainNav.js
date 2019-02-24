@@ -3,7 +3,9 @@ import {createStackNavigator,
 import Main from '../Main/Main'
 import LoginUser from '../Main/LoginUser'
 import LoginCompany from '../Main/LoginCompany'
-import Navigator from './AppNavigator'
+import NavigatorUR from './NavigatorUR'
+import NavigatorCP from './NavigatorCP'
+
 
 
 const StackNavigator = createStackNavigator({
@@ -16,8 +18,11 @@ const StackNavigator = createStackNavigator({
     LoginCompany: {
         screen: LoginCompany
     },
-    Navigator: {
-        screen: Navigator
+    NavigatorUR: {
+        screen: NavigatorUR
+    },
+    NavigatorCP: {
+        screen: NavigatorCP
     },
 })
 

@@ -9,8 +9,8 @@ export default class LoginUser extends React.Component {
             }
         }
 Login(){
-    console.log("Dashboard")
-    // this.props.navigation.navigate("Navigator")
+    console.log("Dashboard User")
+    this.props.navigation.navigate("NavigatorUR")
     // Facebook.logInWithReadPermissionsAsync(2300696260214340, {
     //   permissions: ['public_profile', 'email'],
     // }).then(res => {
