@@ -1,48 +1,25 @@
-// import React from 'react';
-// import { StyleSheet, Text, View,Button,Facebook } from 'react-native';
-// import MainNav from './navigation/MainNav'
-// import MapUR from './screens/User/MapCP'
-// console.disableYellowBox = ['Remote Debugger']
+import React from 'react';
+import { StyleSheet, Text, View } from 'react-native'
+import Navigator from './src/navigation/Navigation'
+import Drawer from './src/navigation/Drawer'
+import {Provider} from 'react-redux'
+import store from './src/store/index'
 
-// export default class App extends React.Component {
-// constructor(){
-//     super();
-//     this.state={
-//     }
-// }
-// render() {
-//     return (
-//       <View style={{flex: 1,backgroundColor:'skyblue',height:200,
-//       }}>
-//         <MainNav/>
-//       </View>
-//     );
-//   }
-// }
-
-
-
-
-import React from "react";
-import { StyleSheet, Text, View } from "react-native";
-import { MapView,PermissionRequest,Location } from "expo";
-import ProfileCP from './screens/User/ProfileCP'
-
-
- class App extends React.Component {
-  constructor(){
-    super()
-    this.state={
-    }
-  }
+export default class App extends React.Component {
   render() {
-    // console.log("Location*******",this.state.location)
     return (
-      <View> 
-        <ProfileCP/>
-    </View>
+      <Provider store={store}>
+        <Navigator/>
+      </Provider>
     );
   }
 }
 
-export default App
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#2D8631',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});

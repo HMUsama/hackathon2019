@@ -7,19 +7,22 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "@material-ui/core": "^3.7.0",
-    "expo": "^31.0.2",
-    "firebase": "^5.7.0",
-    "missing": "0.0.1",
+    "expo": "^32.0.0",
+    "firebase": "^5.8.5",
+    "i": "^0.3.6",
+    "native-base": "^2.12.0",
     "react": "16.5.0",
-    "react-input-file": "^0.2.6",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz",
-    "react-native-firebase": "^5.1.1",
-    "react-native-gesture-handler": "^1.0.12",
-    "react-native-image-picker": "^0.27.2",
-    "react-native-imagepicker": "^2.0.0",
-    "react-native-maps": "^0.22.1",
-    "react-navigation": "^3.0.8"
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-code-input": "^1.0.6",
+    "react-native-elements": "^1.1.0",
+    "react-native-modal": "^9.0.0",
+    "react-native-vector-icons": "^6.3.0",
+    "react-navigation": "^3.3.2",
+    "react-redux": "4.4.9",
+    "react-redux-firebase": "^2.2.6",
+    "redux": "^4.0.1",
+    "redux-firestore": "^0.7.0",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "babel-preset-expo": "^5.0.0"
